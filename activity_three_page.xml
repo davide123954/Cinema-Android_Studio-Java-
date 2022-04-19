@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".ThreeForm">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="363dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="DAVIDE CINEMA!"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1A"
+        android:layout_width="50dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="592dp"
+        android:text="1A"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2A"
+        android:layout_width="38dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="592dp"
+        android:text="2A"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3A"
+        android:layout_width="66dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="600dp"
+        android:text="3A"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1B"
+        android:layout_width="76dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="420dp"
+        android:text="1B"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2B"
+        android:layout_width="76dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="420dp"
+        android:text="2B"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3B"
+        android:layout_width="76dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="420dp"
+        android:text="3B"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1C"
+        android:layout_width="76dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="256dp"
+        android:text="1C"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2C"
+        android:layout_width="76dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="256dp"
+        android:text="2C"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3C"
+        android:layout_width="76dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="256dp"
+        android:text="3C"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="422dp"
+        android:layout_height="192dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cinema1" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="109dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="636dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="104dp"
+        android:layout_height="118dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="464dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="103dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="636dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="116dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="632dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="117dp"
+        android:layout_height="133dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="464dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="109dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="460dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="100dp"
+        android:layout_height="126dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="292dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="102dp"
+        android:layout_height="136dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="107dp"
+        android:layout_height="146dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poltrona1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
