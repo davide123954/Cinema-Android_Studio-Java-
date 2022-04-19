@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/teal_200"
+    tools:context=".QuintoForm">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="402dp"
+        android:layout_height="301dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/thank" />
+
+    <EditText
+        android:textColor="@color/red"
+        android:id="@+id/inputComment"
+        android:layout_width="348dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="368dp"
+        android:ems="10"
+        android:hint="Enter your Comment: "
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:textColor="@color/purplechiaro"
+        android:id="@+id/button2"
+        android:layout_width="268dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="548dp"
+        android:onClick="GetComment"
+        android:text="Read your comment"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:textColor="@color/verde"
+        android:id="@+id/button3"
+        android:layout_width="104dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="548dp"
+        android:onClick="Save"
+        android:text="Save"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
